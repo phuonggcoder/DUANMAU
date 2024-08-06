@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp" tools:context=".RevenueActivity">
+    <!--  Từ ngày  -->
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Từ ngày" android:textSize="16sp"/>
+
+    <!--  Đến ngày  -->
+    <EditText
+        android:id="@+id/ettungay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="dd/MM/yyyy"
+        android:inputType="date" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Đến ngày" android:textSize="16sp"/>
+    <EditText android:id="@+id/etden" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="dd/MM/yyyy" android:inputType="date"/>
+    <!--  Button để lấy dữ liệu doanh thu  -->
+    <Button android:id="@+id/btdoanhthu" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Xem Doanh Thu"/>
+    <!--  RecyclerView để hiển thị danh sách doanh thu các tháng  -->
+    <TextView
+        android:id="@+id/tvketqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="TextView" />
+
+</LinearLayout>

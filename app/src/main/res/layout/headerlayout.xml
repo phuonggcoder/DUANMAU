@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:gravity="center"
+    android:background="#FFEB3B"
+    android:orientation="horizontal"
+    android:padding="30dp"
+    >
+
+    <ImageView
+        android:id="@+id/imgChao"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/convit" />
+
+    <TextView
+        android:id="@+id/tvChao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xin Chào, Admin"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

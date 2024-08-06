@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Khách Hàng"
+        android:textSize="20sp"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etTenKhachHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên Khách Hàng" />
+
+    <EditText
+        android:id="@+id/etSdtKhachHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số điện thoại Khách Hàng" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sách"
+        android:textSize="20sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etMaSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mã sách" />
+
+    <TextView
+        android:id="@+id/tvTenSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên sách sẽ hiện ở đây"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvThanhvien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thành Viên:"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvNgayMuon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày Mượn:"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày trả:"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+    <EditText
+        android:id="@+id/etNgayTra"
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập ngày trả" />
+
+
+    <TextView
+        android:id="@+id/tvTienThue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiền Thuê:"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnAddPhieuMuon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Phiếu Mượn"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

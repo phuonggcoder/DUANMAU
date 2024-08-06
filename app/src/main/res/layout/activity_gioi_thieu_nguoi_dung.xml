@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#A1B5F0E3"
+    tools:context=".GioiThieuNguoiDung">
+
+    <!-- First row of icons and labels -->
+    <LinearLayout
+        android:paddingTop="340dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/themthanhvien"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/themthanhvien"/>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thêm Thành Viên"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold|italic"
+                android:textSize="16sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/quanlythanhvien"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/qlthanhvien"/>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quản Lý Thành Viên"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold|italic"
+                android:textSize="16sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Second row of icons and labels -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/doimatkhau"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/doimatkhau"/>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đổi Mật Khẩu"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold|italic"
+                android:textSize="16sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/dangxuat"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/dangxuat"/>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng Xuất"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold|italic"
+                android:textSize="16sp"
+
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Button at the bottom -->
+    <Button
+        android:id="@+id/trove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Trở Về Trang Chủ"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"/>
+</LinearLayout>

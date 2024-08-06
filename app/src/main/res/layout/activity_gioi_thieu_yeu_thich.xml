@@ -1,0 +1,120 @@
+<!-- activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#B9F6CA"
+    android:paddingTop="100dp">
+
+    <Button
+        android:id="@+id/btnDuLich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFF8E1"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"
+        android:text="Du lịch"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnNgheThuat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFF8E1"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"
+        android:text="Nghệ thuật "
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnTruyenTranh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFF8E1"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"
+        android:text="Truyện tranh"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnTieuThuyet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFF8E1"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"
+        android:text="Tiểu thuyết "
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnSucKhoe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFF8E1"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"
+        android:text="Sức khỏe"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnAmThuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:backgroundTint="#FFF8E1"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"
+        android:text="Ẩm thực "
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnCNTT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:backgroundTint="#FFF8E1"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"
+        android:text="Công nghệ thông tin "
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnKinhTe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:backgroundTint="#FFF8E1"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"
+        android:text="Kinh Tế"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btntlty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFF8E1"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"
+        android:text="Tình Yêu"
+        android:textColor="#000000" />
+    <Button
+        android:id="@+id/trove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Trở Về Trang Chủ"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>

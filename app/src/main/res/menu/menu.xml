@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/GioiThieu"
+        android:icon="@drawable/ic_home"
+        android:title="Trang Chủ"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mQLPhieuMuon"
+        android:title="Quản Lý Phiếu Mượn"
+        android:icon="@drawable/ic_phieu_muon"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mQLLoaiSach"
+        android:title="Quản Lý Loại Sách"
+        android:icon="@drawable/ic_menu_book"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mQLSach"
+        android:title="Quản Lý Sách"
+        android:icon="@drawable/ic_book"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mQLSachYeuThich"
+        android:title="Quản Lý Sách Yêu Thích"
+        android:icon="@drawable/traitim"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mQLGiuSach"
+        android:title="Quản Lý Giữ Sách"
+        android:icon="@drawable/ic_giu_sach"
+        app:showAsAction="never" />
+
+    <item android:title="Thống Kê"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/mDoanhThu"
+                android:title="DoanhThu"
+                android:icon="@drawable/ic_doanh_thu"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+    <item android:title="Người Dùng"
+        android:icon="@drawable/ic_android_black_24dp"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/mQLThanhVien"
+                android:title="Quản Lý Thành Viên"
+                android:icon="@drawable/trangcanhan"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/ThemThanhVien"
+                android:title="Thêm Thành Viên"
+
+                android:icon="@drawable/baseline_add_circle_24"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/doimatkhau"
+                android:title="Đổi Mật Khẩu"
+                android:icon="@drawable/ic_reser_mk"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/dangxuat"
+                android:title="Đăng Xuất"
+                android:icon="@drawable/ic_logout"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+
+</menu>
