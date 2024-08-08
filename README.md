@@ -1,5 +1,4 @@
-Dưới đây là phiên bản đã chỉnh sửa của phần "Yêu cầu" và "Thiết lập" trong `README.md` để nó trông đẹp và dễ đọc hơn:
-
+[DEMO] Ứng Dụng Quản Lý Thư Viện Phương Nam 
 ---
 
 ### Yêu cầu
